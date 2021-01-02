@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="blue darken-3">
+
+    <nav class="blue darken-4">
+        <div class="nav-wrapper">
+            &nbsp;&nbsp;&nbsp;&nbsp;<a href="#!" class="brand-logo"><img
+                    src="https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png" width="30px"></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="waves-effect waves-light btn blue darken-2">Gráficas estudiantes <i
+                            class="material-icons right">data_usage</i></a></li>
+                <li><a class="waves-effect waves-light btn blue darken-2">Reportes estudiantes <i
+                            class="material-icons right">description</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="holeContainer blue darken-3">
+        <h4 class="white-text">Listado de estudiantes.</h4><br>
+        <table class="striped highlight centered responsive-table white bordered">
+            <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>Nombre</th>
+                  <th>Nacionalidad</th>
+                  <th>Carrera</th>
+                  <th>Email</th>
+                  <th>Teléfono</th>
+                  <th>Escuela asignada</th>
+                  <th>Acciones</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              <tr>
+                <td><a class="waves-effect waves-light btn blue-grey darken-3 bordered"><i class="material-icons right">visibility</i>1</a></td>
+                <td>Juan López Smith</td>
+                <td>Peruano</td>
+                <td>Ingeniería en sistemas</td>
+                <td>juan@gmail.com</td>
+                <td>5546839201</td>
+                <td>ESCOM</td> <!--Aqui se usa el combo box para definir el dato-->
+                <td>
+                    <a class="waves-effect waves-light btn red darken-4 borderedLeft"><i class="material-icons right">delete</i>Borrar</a>
+                    <a class="waves-effect waves-light btn blue darken-4 borderedRight"><i class="material-icons right">edit</i>Editar</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/implementations.js"></script>
+
+</html>
